@@ -6,10 +6,13 @@ body{
 .sec{
     display: flex;
     justify-content: space-between;
-    height: 90vh;
-    margin: 20px 30px;
-    padding: 20px 15px;
-    background-image: url(background-images);
+    height: 80vh;
+    margin: 0;
+    padding: 20px 40px;
+}
+.top_banner{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .sowaib{
     width: 500px;
@@ -25,10 +28,16 @@ p{
 }
 .btn{
     color:white;
-    background-color: rgb(241, 133, 93);
+    background-image: linear-gradient(to right bottom, orange, red);
     padding: 20px 15px;
-    
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: 800;
+}
+.middle_banner{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
 }
