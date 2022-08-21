@@ -1,43 +1,66 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-.sec{
-    display: flex;
-    justify-content: space-between;
-    height: 80vh;
-    margin: 0;
-    padding: 20px 40px;
+
+.common-section {
+    height: 100vh;
+    margin-bottom: 15px;
+    padding: 0;
 }
-.top_banner{
+
+.bg-1 {
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
 }
-.sowaib{
-    width: 500px;
-}
-span{
-    color: rgb(241, 133, 93);
-}
-.left{
-    width: 50%;
-}
-p{
-    text-align: justify;
-}
-.btn{
-    color:white;
-    background-image: linear-gradient(to right bottom, orange, red);
-    padding: 20px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 800;
-}
-.middle_banner{
+
+.bg-2 {
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
-    background-position-y: bottom;
+    background-position-y: center;
+}
+
+.bg-3 {
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.fexible-container {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    margin: 10px 20px;
+    padding: 10px 15px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    text-align: justify;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 40px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom right, orange, red);
+    border-radius: 5px;
+}
+
+.ex-h3 {
+    color: orange;
 }
