@@ -64,3 +64,23 @@ p {
 .ex-h3 {
     color: orange;
 }
+
+.same-width {
+    width: 38%;
+    margin-left: 5%;
+    padding: 2%;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 5px;
+}
+
+.full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+.baby-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
+}
